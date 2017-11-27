@@ -1,3 +1,4 @@
 *node_modules
 *package-lock.json
 todo-api/data/*.sqlite
+*.DS_Store
