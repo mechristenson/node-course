@@ -1,3 +1,8 @@
+var name = getQueryVariable('name');
+var room = getQueryVariable('room');
+
+console.log(name + ' wants to join ' + room);
+
 var socket = io();
 
 socket.on('connect', function () {
